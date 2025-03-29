@@ -8,7 +8,6 @@ devuelva un puntero a la cadena ingresada.
 char *get_new_line(){
     
     
-    
 }
 
 
