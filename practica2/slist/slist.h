@@ -53,4 +53,34 @@ int slist_longitud(SList lista);
 
 SList slist_concatenar(SList lista1, SList lista2);
 
+/**
+ * Inserta un dato en una posicion arbitraria.
+ */
+SList slist_insertar(SList lista, int dato, int pos);
+
+/**
+ * Elimina un dato en una posicion arbitraria.
+ */
+SList slist_eliminar(SList lista, int pos);
+
+/**
+ * Determina si un elemento esta o no en la lista.
+ */
+int slist_contiene(SList lista, int elem);
+
+/**
+ * Determina si el elemento esta en la lista y devuelve su indice
+ */
+int slist_indice(SList lista, int elem);
+
+/**
+ * Dadas dos listas devuelve una lista con elementos en comun
+ */
+SList slist_intersecar(SList lista1, SList lista2);
+
+/**
+ * 
+ */
+SList slist_intersecar_custom(SList lista1, SList lista2, )
+
 #endif /* __SLIST_H__ */
