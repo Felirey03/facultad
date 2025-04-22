@@ -25,10 +25,5 @@ int main() {
 
   glist_destruir(lista, (FuncionDestructora)contacto_destruir);
 
-  int contador = slist_longitud(lista);
-
-  printf("cantidad de elementos de lista: %d \n", contador);
-
-
   return 0;
 }

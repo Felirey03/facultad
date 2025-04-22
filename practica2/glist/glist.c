@@ -45,15 +45,3 @@ void glist_recorrer(GList list, FuncionVisitante visit) {
   for (GNode *node = list; node != NULL; node = node->next)
     visit(node->data);
 }
-
-/**
- * Determina el tamaño de la lista.
- */
-int slist_longitud(GList list){
-  GNode *temp = list;
-  int i;
-
-  for(;temp != NULL; temp = temp->next, i++);
-  free(temp);
-  return i;
-}

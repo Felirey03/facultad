@@ -37,9 +37,4 @@ GList glist_agregar_inicio(GList lista, void *dato, FuncionCopia copiar);
  */
 void glist_recorrer(GList lista, FuncionVisitante visitar);
 
-/**
- * Determina la longitud de la lista.
- */
-int slist_longitud(GList lista);
-
 #endif /* __GLIST_H__ */
